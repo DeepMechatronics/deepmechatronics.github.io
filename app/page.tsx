@@ -351,7 +351,103 @@ I help build technologies that empower people and industries toward smarter, saf
 
 </div>
 
+
+
+
+
+{/* Selected Publications */}
+
+<div className="mt-28">
+
+  <h2 className="serif text-[3rem] font-light tracking-tight text-[#1f1d1a]">
+    Selected Publications
+  </h2>
+
+  <div className="mt-4 h-px w-10 bg-[#cf8a42]" />
+
+  {/* Publication Item */}
+
+
+{/* Publication Item */}
+
+<div className="mt-16 border-b border-[#e7e0d6] pb-12">
+
+  {/* Publication Image */}
+
+ 
+
+  {/* Publication Content */}
+
+  <div className="mt-8">
+
+    <h3 className="serif text-[2.15rem] leading-[1.35] text-[#1f1d1a]">
+      A Reliable Real-Time Tool Wear Monitoring Framework
+      Based on Temporal Segmentation Using Domain-Informed
+      Stacked AI Models with Physics-Constrained Predictions
+    </h3>
+
+    <p className="mt-4 text-[1rem] italic tracking-wide text-[#8a8178]">
+      International Journal of Advanced Manufacturing Technology · 2026
+    </p>
+
+    <p className="mt-6 text-[1.03rem] leading-[2] text-justify text-[#5a554f]">
+  Real-time tool wear monitoring is critical for maintaining
+  machining quality and preventing unplanned industrial downtime,
+  yet existing AI-based approaches often lack robustness,
+  interpretability, and adaptability across evolving wear conditions.
+  This work introduces the D-STL-MPK framework, integrating
+  temporal segmentation, domain-informed stacked AI models,
+  monotonicity enforcement, and physics-constrained Kalman smoothing
+  to achieve interpretable and deployment-ready wear prediction
+  with sub-2 ms inference latency, ultra-light computational cost,
+  and strong generalization across public manufacturing datasets.
+    </p>
+
+     <img
+    src="/images/dstlmpl-paper.png"
+    alt="D-STL-MPK Tool Wear Monitoring Framework"
+    className="w-full rounded-2xl border border-[#ddd6ca] bg-white object-cover"
+  />
+
+    <p className="mt-7 text-[0.92rem] leading-[1.9] text-[#7a746d]">
+
+      Patel, D., Muthuswamy, S.
+      <span className="italic">
+        {" "}
+        A Reliable Real-Time Tool Wear Monitoring Framework
+        Based on Temporal Segmentation Using Domain-Informed
+        Stacked AI Models with Physics-Constrained Predictions.
+      </span>
+      {" "}
+      International Journal of Advanced Manufacturing Technology (2026).
+
+    </p>
+
+    <a
+      href="https://doi.org/10.1007/s00170-026-18313-0"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-6 inline-block text-[0.95rem] text-[#8a5a2b] underline underline-offset-4 decoration-[#d0b08c] transition hover:opacity-70"
+    >
+      View Publication
+    </a>
+
+  </div>
+
 </div>
+
+
+ 
+
+{/* Additional publication items would follow the same structure as above, with appropriate spacing and styling. */}
+
+
+</div>
+</div>
+
+
+
+
 
 
 
