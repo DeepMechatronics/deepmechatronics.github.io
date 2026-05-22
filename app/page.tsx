@@ -1,5 +1,11 @@
 import Image from "next/image";
 import {
+  Bot,
+  Cpu,
+  Factory,
+} from "lucide-react";
+
+import {
   FaGithub,
   FaLinkedin,
   FaGoogleScholar,
@@ -243,81 +249,111 @@ I help build technologies that empower people and industries toward smarter, saf
 
 </div>
 
-            {/* Current Focus */}
+{/* Current Focus */}
 
-            <div className="mt-24">
+<h2 className="serif text-[3rem] font-light tracking-tight text-[#1f1d1a]">
+  Current Focus
+</h2>
 
-              <h2 className="serif text-4xl font-light tracking-tight text-[#1f1d1a]">
-                Current Focus
-              </h2>
+<div className="mt-4 h-px w-10 bg-[#cf8a42]" />
 
-              <div className="mt-4 h-px w-10 bg-[#cf8a42]" />
+<div className="mt-12 space-y-8">
 
-              <div className="mt-10 space-y-10">
+  {/* Intelligent Robotics */}
 
-                {[
-                  {
-                    title: "Digital Twins for Manufacturing",
-                    text: "Real-time digital representations integrating physics, data, and operational context.",
-                    color: "#8ca779",
-                  },
-                  {
-                    title: "AI & Prognostics",
-                    text: "Physics-informed monitoring and intelligent decision support systems.",
-                    color: "#7392c5",
-                  },
-                  {
-                    title: "Robotics & Automation",
-                    text: "Autonomous and semi-autonomous systems for industrial applications.",
-                    color: "#8d6d94",
-                  },
-                  {
-                    title: "Intelligent Monitoring",
-                    text: "Analytics pipelines transforming raw signals into actionable understanding.",
-                    color: "#cf8a42",
-                  },
-                ].map((item) => (
-                  <div
-                    key={item.title}
-                    className="flex gap-6 border-b border-[#ebe5dc] pb-8"
-                  >
+  <div className="flex items-start gap-6 border-b border-[#e7e0d6] pb-8">
 
-                    <div
-                      className="mt-1 flex h-14 w-14 shrink-0 items-center justify-center rounded-full"
-                      style={{
-                        backgroundColor: item.color + "14",
-                      }}
-                    >
+    <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-[#ddd6ca] bg-[#f7f4ee]">
 
-                      <div
-                        className="h-5 w-5 rounded-full"
-                        style={{
-                          backgroundColor: item.color,
-                        }}
-                      />
+      <Bot
+        size={30}
+        strokeWidth={1.4}
+        className="text-[#8f6bb3]"
+      />
 
-                    </div>
+    </div>
 
-                    <div>
+    <div>
 
-                      <h3 className="serif text-2xl text-[#23211d]">
-                        {item.title}
-                      </h3>
+      <h3 className="serif text-[1.65rem] text-[#1f1d1a]">
+        Intelligent Robotics
+      </h3>
 
-                      <p className="mt-3 text-[17px] leading-[1.9] text-[#5a554f]">
-                        {item.text}
-                      </p>
+      <p className="mt-2 text-[1rem] leading-[1.95] text-[#5a554f]">
+        Autonomous and semi-autonomous robotic systems
+        for industrial environments, adaptive fabrication,
+        and human–robot collaboration.
+      </p>
 
-                    </div>
+    </div>
 
-                  </div>
-                ))}
+  </div>
 
-              </div>
+  {/* Manufacturing Intelligence */}
 
-            </div>
+  <div className="flex items-start gap-6 border-b border-[#e7e0d6] pb-8">
 
-          </div>
+    <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-[#ddd6ca] bg-[#f7f4ee]">
+
+      <Cpu
+        size={30}
+        strokeWidth={1.4}
+        className="text-[#6f8fc7]"
+      />
+
+    </div>
+
+    <div>
+
+      <h3 className="serif text-[1.65rem] text-[#1f1d1a]">
+        Manufacturing Intelligence
+      </h3>
+
+      <p className="mt-2 text-[1rem] leading-[1.95] text-[#5a554f]">
+        Digital twins, industrial AI, and intelligent
+        monitoring systems for data-driven manufacturing
+        and operational decision support.
+      </p>
+
+    </div>
+
+  </div>
+
+  {/* Sustainable Industrial Systems */}
+
+  <div className="flex items-start gap-6">
+
+    <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border border-[#ddd6ca] bg-[#f7f4ee]">
+
+      <Factory
+        size={30}
+        strokeWidth={1.4}
+        className="text-[#c58a4b]"
+      />
+
+    </div>
+
+    <div>
+
+      <h3 className="serif text-[1.65rem] text-[#1f1d1a]">
+        Sustainable Industrial Systems
+      </h3>
+
+      <p className="mt-2 text-[1rem] leading-[1.95] text-[#5a554f]">
+        Research toward scalable prefabrication,
+        resource-efficient production, and next-generation
+        industrial infrastructure.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+
 
           {/* Right Column */}
 
